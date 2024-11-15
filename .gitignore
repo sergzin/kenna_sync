@@ -1,0 +1,14 @@
+# Ignore environment files to avoid exposing sensitive data
+/.env
+
+# Ignore Python cache directories
+/temp
+**/__pycache__
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore development environment files
+/.venv
+/.idea/**
